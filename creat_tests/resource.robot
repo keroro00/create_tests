@@ -10,7 +10,7 @@ Library           SeleniumLibrary
 
 
 *** Variables ***
-${SERVER}         192.168.1.34
+${SERVER}         localhost:7272
 ${BROWSER}        Chrome
 ${DELAY}          0
 ${VALID title}    Yoga Class
@@ -18,9 +18,9 @@ ${VALID description}    Yoga is good.
 ${VALID difficulty}  	 Beginner  #Intermediate  Advanced
 ${VALID language}    Cantonese    #English  Mandarin
 ${UNSELECT}    	Please select
-${CreateClass URL}      http://${SERVER}/demo/createClass.html
-${Created URL}    http://${SERVER}/demo/classCreated.html
-${ERROR URL}      http://${SERVER}/demo/classCreationError.html
+${CreateClass URL}      http://${SERVER}/
+${Created URL}    http://${SERVER}/classCreated.html
+${ERROR URL}      http://${SERVER}/classCreationError.html
 
 *** Keywords ***
 Open Browser To Create class
