@@ -18,7 +18,7 @@ ${VALID description}    Yoga is good.
 ${VALID difficulty}  	 Beginner  #Intermediate  Advanced
 ${VALID language}    Cantonese    #English  Mandarin
 ${UNSELECT}    	Please select
-${CreateClass URL}      http://${SERVER}/
+${CreateClass URL}      http://${SERVER}/createClass.html
 ${Created URL}    http://${SERVER}/classCreated.html
 ${ERROR URL}      http://${SERVER}/classCreationError.html
 
