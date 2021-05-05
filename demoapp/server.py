@@ -14,9 +14,7 @@ an argument from the command line.
 """
 
 from __future__ import print_function
-from selenium import webdriver
 
-driver = webdriver.Chrome("C:\Users\TonyHo\AppData\Local\Programs\Python\Python39\chromedriver.exe")
 from os import chdir
 from os.path import abspath, dirname, join
 try:
